@@ -1,5 +1,14 @@
 # database connection
-  datasource:
-    url: jdbc:postgresql://localhost:5432/mydb
-    username: postgres
-    password: postgresql
+datasource:
+  url: jdbc:postgresql://localhost:5432/mydb
+  username: postgres
+  password: postgresql
+
+# config server
+config: 
+  uri: optional:configserver:http://localhost:8888
+
+# eureka client 
+eureka:
+  client:
+    uri: http://localhost:8761/eureka
