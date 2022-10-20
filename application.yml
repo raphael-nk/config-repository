@@ -1,6 +1,4 @@
-spring:
-
-  # database connection
+# database connection
   datasource:
     url: jdbc:postgresql://localhost:5432/mydb
     username: postgres
