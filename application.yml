@@ -12,3 +12,6 @@ config:
 eureka:
   client:
     uri: http://localhost:8761/eureka
+
+# test
+message: "Voici mon message"
