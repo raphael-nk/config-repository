@@ -6,7 +6,7 @@ datasource:
 
 # config server
 config: 
-  uri: optional:configserver:http://localhost:8888
+  uri: "optional:configserver:http://localhost:8888"
 
 # eureka client 
 eureka:
