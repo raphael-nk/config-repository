@@ -11,7 +11,7 @@ eureka:
 message: "Voici mon message"
 
 # project database connection
-projet: 
+project: 
   datasource:
     url: jdbc:postgresql://localhost:5432/mydb
     username: postgres
