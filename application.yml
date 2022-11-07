@@ -23,3 +23,11 @@ investor:
     url: jdbc:mysql://localhost:3306/investor
     username: root
     password: ""
+
+# config email 
+mail:
+  username: myemail@gmail.com
+  password: myemailpasswd
+   
+
+
