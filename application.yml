@@ -13,14 +13,14 @@ message: "Voici mon message"
 # project database connection
 project: 
   datasource:
-    url: jdbc:postgresql://localhost:5432/project
+    url: jdbc:postgresql://localhost:5432/invest_gate_projects
     username: postgres
     password: postgresql
 
 # investor database connection
 investor: 
   datasource:
-    url: jdbc:mysql://localhost:3306/investor
+    url: jdbc:mysql://localhost:3306/invest_gate_investors
     username: root
     password: ""
 
