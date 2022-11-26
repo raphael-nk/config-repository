@@ -24,6 +24,13 @@ investor:
     username: root
     password: ""
 
+# student database connection
+student: 
+  datasource:
+    url: jdbc:mysql://localhost:3306/invest_gate_students
+    username: root
+    password: ""
+
 # config email 
 mail:
   username: yasaiteams002@gmail.com
