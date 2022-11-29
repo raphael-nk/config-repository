@@ -17,6 +17,13 @@ project:
     username: postgres
     password: postgresql
 
+# admin database connection
+admin: 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/invest_gate_admins
+    username: postgres
+    password: postgresql
+
 # investor database connection
 investor: 
   datasource:
