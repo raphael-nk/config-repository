@@ -11,18 +11,30 @@ eureka:
 message: "Voici mon message"
 
 # project database connection
+#project: 
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/invest_gate_projects
+#    username: postgres
+#    password: postgresql
+
 project: 
   datasource:
-    url: jdbc:postgresql://localhost:5432/invest_gate_projects
-    username: postgres
-    password: postgresql
+    url: jdbc:mysql://localhost:3306/invest_gate_projects
+    username: root
+    password: ""
 
 # admin database connection
+#admin: 
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/invest_gate_admins
+#    username: postgres
+#    password: postgresql
+
 admin: 
   datasource:
-    url: jdbc:postgresql://localhost:5432/invest_gate_admins
-    username: postgres
-    password: postgresql
+    url: jdbc:mysql://localhost:3306/invest_gate_admins
+    username: root
+    password: ""
 
 # investor database connection
 investor: 
